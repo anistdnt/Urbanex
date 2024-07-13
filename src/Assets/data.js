@@ -1,0 +1,58 @@
+import p1_img from './product_1.png'
+import p2_img from './product_2.jpg'
+import p4_img from './product_4.png'
+
+let data_product = [
+  {
+    id:1,
+    name:"Black Woolen Jacket with blue denim jeans",
+    image:p1_img,
+    new_price:50.00,
+    old_price:80.50,
+  },
+  {id:2,
+    name:"black crew neck t-shirt and blue denim jeans",
+    image:p2_img,
+    new_price:85.00,
+    old_price:120.50,
+  },
+  {id:3,
+    name:"Blue Dress Shirt and Black Formal Suit",
+    image:"https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    new_price:60.00,
+    old_price:100.50,
+  },
+  {id:4,
+    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    image:p4_img,
+    new_price:100.00,
+    old_price:150.00,
+  },
+  {
+    id:37,
+    name:"Yellow Long-sleeved Dress",
+    image:"https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    new_price:80.00,
+    old_price:120.50,
+  },
+  {id:38,
+    name:"Trendy Offwhite woolen sweater",
+    image:"https://images.pexels.com/photos/5560033/pexels-photo-5560033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    new_price:95.00,
+    old_price:120.50,
+  },
+  {id:39,
+    name:"Angel white costume",
+    image:"https://images.pexels.com/photos/7139000/pexels-photo-7139000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    new_price:50.00,
+    old_price:90.50,
+  },
+  {id:40,
+    name:"Red Jacket || casual outfit",
+    image:"https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    new_price:120.00,
+    old_price:170.00,
+  },
+];
+
+export default data_product;
