@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import star from '../Assets/star_icon.png'
 import star_fade from '../Assets/star_dull_icon.png'
 import RelatedProducts from './RelatedProducts'
+import { useSelector, useDispatch } from 'react-redux'
+import { setWishList } from '../Slices/CartSlice'
+import { toast } from 'react-toastify'
 
 const ProductDisplay = (props) => {
   const product = props.product
+  const dispatch = useDispatch()
+  const [size,setSize] = useState("")
+  const handleClick = ()=>{
+    if(size!==""){
+      dispatch(setWishList({product,"size":`${size}`}))
+      toast.success("product added successfully!!")
+      setSize("")
+    }else{
+      toast.error("Please select size")
+    }
+  }
+
+
   return (
     <div>
       <div className='h-[470px] flex flex-row font-poppins mt-10 mb-10'>
@@ -36,16 +52,16 @@ const ProductDisplay = (props) => {
             <div className='mt-10'>
               <p className='text-xl text-gray-600 font-medium'>Select Size</p>
               <div id="size" className='flex flex-row items-center justify-between w-[300px] h-auto mt-6 mb-6'>
-                <div className='bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center'>S</div>
-                <div className='bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center'>M</div>
-                <div className='bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center'>L</div>
-                <div className='bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center'>XL</div>
-                <div className='bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center'>XXL</div>
+                <div className={size==="S" ? 'bg-slate-300 border-2 border-orange-400 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer' : 'bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer'} onClick={()=>{setSize("S")}}>S</div>
+                <div className={size==="M" ? 'bg-slate-300 border-2 border-orange-400 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer' : 'bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer'} onClick={()=>{setSize("M")}}>M</div>
+                <div className={size==="L" ? 'bg-slate-300 border-2 border-orange-400 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer' : 'bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer'} onClick={()=>{setSize("L")}}>L</div>
+                <div className={size==="XL" ? 'bg-slate-300 border-2 border-orange-400 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer' : 'bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer'} onClick={()=>{setSize("XL")}}>XL</div>
+                <div className={size==="XXL" ? 'bg-slate-300 border-2 border-orange-400 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer' : 'bg-slate-300 h-10 w-10 flex rounded-md items-center justify-center hover:cursor-pointer'} onClick={()=>{setSize("XXL")}}>XXL</div>
               </div>
             </div>
             <div id="buttons" className='w-[300px] h-auto flex flex-col gap-4'>
               <button className='bg-orange-400 h-12 px-6 rounded-md text-white font-medium shadow-lg active:scale-95'>Buy Now</button>
-              <button className='bg-orange-600 h-12 px-6 rounded-md text-white font-medium shadow-lg active:scale-95'>Add to Cart</button>
+              <button className='bg-orange-600 h-12 px-6 rounded-md text-white font-medium shadow-lg active:scale-95' onClick={()=>{handleClick()}}>Add to Cart</button>
             </div>
 
           </div>
