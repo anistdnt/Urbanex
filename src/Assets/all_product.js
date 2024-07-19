@@ -42,7 +42,7 @@ let all_product = [
     category:"women",
     image:p1_img,
     new_price:50.00,
-    quantity: 0,
+    quantity: 1,
     old_price:80.50,
   },
   {
@@ -51,7 +51,7 @@ let all_product = [
     category:"men",
     image:p2_img,
     new_price:85.00,
-    quantity: 0,
+    quantity: 1,
     old_price:120.50,
   },
   {
@@ -60,7 +60,7 @@ let all_product = [
     category:"men",
     image:"https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     new_price:60.00,
-    quantity: 0,
+    quantity: 1,
     old_price:100.50,
   },
   {
@@ -69,7 +69,7 @@ let all_product = [
     category:"women",
     image:p4_img,
     new_price:100.00,
-    quantity: 0,
+    quantity: 1,
     old_price:150.00,
   },
   {
@@ -78,7 +78,7 @@ let all_product = [
     category: "women",
     image: p5_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -87,7 +87,7 @@ let all_product = [
     category: "women",
     image: p6_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -96,7 +96,7 @@ let all_product = [
     category: "women",
     image: p7_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -105,7 +105,7 @@ let all_product = [
     category: "women",
     image: p8_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -114,7 +114,7 @@ let all_product = [
     category: "women",
     image: p9_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -123,7 +123,7 @@ let all_product = [
     category: "women",
     image: p10_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -132,7 +132,7 @@ let all_product = [
     category: "women",
     image: p11_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -141,7 +141,7 @@ let all_product = [
     category: "women",
     image: p12_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -150,7 +150,7 @@ let all_product = [
     category: "men",
     image: p13_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -159,7 +159,7 @@ let all_product = [
     category: "men",
     image: p14_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -168,7 +168,7 @@ let all_product = [
     category: "men",
     image: p15_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -177,7 +177,7 @@ let all_product = [
     category: "men",
     image: p16_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -186,7 +186,7 @@ let all_product = [
     category: "men",
     image: p17_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -195,7 +195,7 @@ let all_product = [
     category: "men",
     image: p18_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -204,7 +204,7 @@ let all_product = [
     category: "men",
     image: p19_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -213,7 +213,7 @@ let all_product = [
     category: "men",
     image: p20_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -222,7 +222,7 @@ let all_product = [
     category: "men",
     image: p21_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -231,7 +231,7 @@ let all_product = [
     category: "men",
     image: p22_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -240,7 +240,7 @@ let all_product = [
     category: "men",
     image: p23_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -249,7 +249,7 @@ let all_product = [
     category: "men",
     image: p24_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -258,7 +258,7 @@ let all_product = [
     category: "kid",
     image: p25_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -267,7 +267,7 @@ let all_product = [
     category: "kid",
     image: p26_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -276,7 +276,7 @@ let all_product = [
     category: "kid",
     image: p27_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -285,7 +285,7 @@ let all_product = [
     category: "kid",
     image: p28_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -294,7 +294,7 @@ let all_product = [
     category: "kid",
     image: p29_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -303,7 +303,7 @@ let all_product = [
     category: "kid",
     image: p30_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -312,7 +312,7 @@ let all_product = [
     category: "kid",
     image: p31_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -321,7 +321,7 @@ let all_product = [
     category: "kid",
     image: p32_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -330,7 +330,7 @@ let all_product = [
     category: "kid",
     image: p33_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -339,7 +339,7 @@ let all_product = [
     category: "kid",
     image: p34_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -348,7 +348,7 @@ let all_product = [
     category: "kid",
     image: p35_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -357,7 +357,7 @@ let all_product = [
     category: "kid",
     image: p36_img,
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
   {
@@ -366,7 +366,7 @@ let all_product = [
     category:"women",
     image:"https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     new_price:80.00,
-    quantity: 0,
+    quantity: 1,
     old_price:120.50,
   },
   {id:38,
@@ -374,7 +374,7 @@ let all_product = [
     category:"kid",
     image:"https://images.pexels.com/photos/5560033/pexels-photo-5560033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     new_price:95.00,
-    quantity: 0,
+    quantity: 1,
     old_price:120.50,
   },
   {id:39,
@@ -382,7 +382,7 @@ let all_product = [
     category:"kid",
     image:"https://images.pexels.com/photos/7139000/pexels-photo-7139000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     new_price:50.00,
-    quantity: 0,
+    quantity: 1,
     old_price:90.50,
   },
   {id:40,
@@ -390,7 +390,7 @@ let all_product = [
     category:"men",
     image:"https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     new_price:120.00,
-    quantity: 0,
+    quantity: 1,
     old_price:170.00,
   },
   {
@@ -399,7 +399,7 @@ let all_product = [
     category:"women",
     image: 'https://i.pinimg.com/736x/52/51/ac/5251acf356f31e1ce998a9648c170c48.jpg',
     new_price: 85.0,
-    quantity: 0,
+    quantity: 1,
     old_price: 120.5,
   },
 ];
